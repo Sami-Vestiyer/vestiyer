@@ -2,14 +2,16 @@ import React from "react";
 
 export default function ProductCart() {
   return (
-    <div className="bg-black flex">
+    <div className="bg-black flex w-10">
       <div className="ProductCartWrapper" data-id="">
         <div className="Product-children-center">
           <a href="product">
             <div className="image-container">
-              <div className="Card-image">
+              <div className="Card-image h-80
+     w-72 
+               ">
                 <img
-                  class="p-card-img"
+                  className="p-card-img"
                   src="https://cdn.dsmcdn.com//ty175/product/media/images/20210913/21/129698250/221482901/1/1_org.jpg"
                   alt="TRENDYOL MAN Siyah Unisex Oversize Fit Sweatshirt TMNAW22SW1462"
                 />
@@ -39,7 +41,7 @@ export default function ProductCart() {
                   <div class="empty">
                     <div class="star"></div>
                   </div>
-                  <div class="full" style="width:100%;max-width:100%">
+                  <div class="full" >
                     <div class="star"></div>
                   </div>
                 </div>

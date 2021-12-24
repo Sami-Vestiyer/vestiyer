@@ -1,5 +1,6 @@
 import PopoverCart from "./components/popoverCart";
 import ProductCart from "./components/productCart";
+import ProductCartv2 from "./components/productCartv2";
 import SideProductCart from "./components/sideProductCart";
 import Custom404 from "./pages/404";
 import CheckOutPage from "./pages/CheckOutPage";
@@ -12,8 +13,8 @@ import Products from "./pages/Products";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App bg-black h-full">
+     
 {/* <HomePage/> */}
 {/* <ProductPage/> */}
 {/* <PopoverCart/> */}
@@ -21,15 +22,18 @@ function App() {
 {/* <SideProductCart/> */}
 {/* <CheckOutPage/> */}
 {/* <OrderDetails/> */}
-<OrderHistory/>
+{/* <OrderHistory/>*/}
 {/* <Custom404/> */}
-<Pricing/>
-      </header>
-      <div className="bg-black"> 
+{/* <Pricing/>*/}
+{/* <ProductCart/>*/}
 
-<ProductCart/>
 
-      </div>
+<ProductCartv2/>
+
+
+{/*<ProductCart/>*/}
+
+   
     </div>
   );
 }
